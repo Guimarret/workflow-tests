@@ -1,0 +1,32 @@
+repo_name: Guimarret/workflow-tests
+report_id: 96d419fadeb81aac0e110b75736c537a
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-02T17:13:15+00:00'
+requested_by: Guimarret
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Guimarret/workflow-tests
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Guimarret/workflow-tests/blob/main/.github/workflows/terraform.yml
+  detection_source: ".github/workflows/terraform.yml"
+  last_updated_by: Guimarret
+  last_updated_on: 2024-04-01 20:39:40.000000000 Z
